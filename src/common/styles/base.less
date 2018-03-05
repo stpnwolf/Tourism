@@ -86,9 +86,29 @@ body {
   width: 95%;
   background-color: #f4f4f4;
   position: relative;
+  .textblock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 46%;
+    position: absolute;
+    top: 5%;
+    left: 18%;
+    h2 {
+      margin: 0;
+      display: block;
+    }
+    p {
+      width: 72%;
+      display: inline-block;
+      color: #8d8d8d;
+    }
+  }
   .gallery-album {
     width: 46%;
     height: 71%;
+    padding: 0;
+    margin: 0;
     position: absolute;
     bottom: 10%;
     left: 18%;
@@ -97,6 +117,7 @@ body {
     justify-content: flex-end;
     align-items: flex-start;
     flex-wrap: wrap;
+    box-shadow: 0px 0px 2px 0px #000000;
 
     .image-block {
       display: flex;
